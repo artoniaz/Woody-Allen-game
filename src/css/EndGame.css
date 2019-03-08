@@ -1,0 +1,43 @@
+.endGame{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    width: 80%;
+    height: 80vh;
+    border: 2rem solid white;
+}
+
+.endGame h1{
+    border-bottom: 2px solid white;
+    padding: 2rem 30rem;
+    display: inline-block;
+}
+
+.endGame div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.endGame div h2 {
+    width: 50%;
+    padding: 5rem;
+}
+
+.endGame div div{
+    background-position: center;
+    background-size: cover;
+    width: 70%;
+    height: 400px;
+}
+
+div.allenSadPic {
+    background-image: url("../img/allenSad.png");
+}
+
+div.allenHappyPic {
+    background-image: url("../img/allenHappy.png");
+}

@@ -1,0 +1,28 @@
+div.help {
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 1.6rem;
+    color: white;
+}
+div.helpButtons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+div.helpButtons button{
+    font-size: 2rem;
+    margin: 4rem;
+    background-color: white;
+    padding: 1rem 3rem;
+    border: 2px solid black;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+div.helpButtons button:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    transition: 0.4s;
+}

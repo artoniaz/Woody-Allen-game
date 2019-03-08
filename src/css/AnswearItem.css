@@ -1,0 +1,44 @@
+.answearItem{
+    position: relative;
+}
+
+.answearItem div:first-child{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100vh;
+}
+
+.answearItem div:nth-child(2){
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 5rem;
+    border: 5px solid white;
+}
+
+.answearItem h1{
+    margin: 1rem;
+}
+
+.answearItem button{
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+.answearItem button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+    border: 2px solid white;
+}

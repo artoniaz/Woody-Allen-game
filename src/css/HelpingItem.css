@@ -1,0 +1,67 @@
+.helpingItem, .emptyAlert{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: white;
+    min-width: 70%;
+    padding: 2rem;
+    border: 2px solid black;
+}
+
+.helpingItem h1, .emptyAlert h1{
+    font-size: 2rem;
+    margin: 2rem;
+    color: black;
+}
+
+.helpingItem h3{
+    font-size: 1.6rem;
+    margin: 1rem;
+}
+
+.helpingItem ul li{
+    list-style: none;
+    font-size: 2rem;
+}
+
+.helpingItem button, .emptyAlert button, .endGame button{
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    margin: 2rem;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+.helpingItem button:hover, .emptyAlert button:hover, .endGame button:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    transition: 0.4s;
+}
+
+.helpingPictures {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.helpingPicture{
+    width: 33%;
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+}
+
+.grayBackground{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100vh;
+}
