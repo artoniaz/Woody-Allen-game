@@ -42,8 +42,8 @@ class Helpings extends React.Component {
                 <div className="helpButtons">
                     <button onClick={this.handleClick} id="cast">Obsada</button>
                     <button onClick={this.handleClick} id="plot">Fabuła</button>
-                    <button onClick={this.handleClick} id="pictures">Dodatkowe zdjęcia</button>
-                    <button onClick={this.handleClick} id="productionYear">Rok produkcji</button>
+                    <button onClick={this.handleClick} id="pictures">Zdjęcia</button>
+                    <button onClick={this.handleClick} id="productionYear">Rok&nbsp;produkcji</button>
                 </div>
                 {this.state.helpingItem && <div className="grayBackground"></div>}
                 {this.state.helpingItem && <HelpingItem state={this.state} target={this.handleClick} closeHelping={this.closeHelping}/>}

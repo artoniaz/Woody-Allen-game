@@ -58,9 +58,9 @@ class SectionTwo extends React.Component {
                 [e.target.id]: false,
                 answearDisplay: false,
                 answearCorrect: false,
-                activeMovie: 0,
                 score: 0,
-            })
+            });
+            // this.props.getActiveMovie(0);
         } else {
             this.setState({
                 [e.target.id]: false,
@@ -71,9 +71,12 @@ class SectionTwo extends React.Component {
     handleCloseBtn = () => {
 
         if (this.state.activeMovie + 1 > this.state.movies.length - 1){
-            return this.setState({
+            this.setState({
+                activeMovie: 0,
                 endGame: true,
-            })
+            });
+            return this.props.getActiveMovie(0, this.state.movies);
+
         }
 
         this.setState({

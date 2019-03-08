@@ -1,6 +1,5 @@
 import React from 'react';
 import "../css/Header.css";
-import scrollToComponent from "react-scroll-to-component";
 
 const Header = props => {
 

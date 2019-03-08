@@ -6,13 +6,12 @@ div.help {
 }
 div.helpButtons {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: center;
 }
 
 div.helpButtons button{
     font-size: 2rem;
-    margin: 4rem;
+    margin: 1.5rem;
     background-color: white;
     padding: 1rem 3rem;
     border: 2px solid black;
