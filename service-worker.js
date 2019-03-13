@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/woody-allen-game/precache-manifest.9a934f865f66e6f21dd07b66c17a28f5.js"
+  "/Woody-Allen-Game/precache-manifest.7d466c76ffd2801d977981572c75c855.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/woody-allen-game/index.html", {
+workbox.routing.registerNavigationRoute("/Woody-Allen-Game/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

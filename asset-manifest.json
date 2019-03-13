@@ -1,15 +1,15 @@
 {
-  "main.css": "/woody-allen-game/static/css/main.9012fb90.chunk.css",
-  "main.js": "/woody-allen-game/static/js/main.10a85b8a.chunk.js",
-  "main.js.map": "/woody-allen-game/static/js/main.10a85b8a.chunk.js.map",
-  "runtime~main.js": "/woody-allen-game/static/js/runtime~main.3a3cc85f.js",
-  "runtime~main.js.map": "/woody-allen-game/static/js/runtime~main.3a3cc85f.js.map",
-  "static/js/2.8bd8ca99.chunk.js": "/woody-allen-game/static/js/2.8bd8ca99.chunk.js",
-  "static/js/2.8bd8ca99.chunk.js.map": "/woody-allen-game/static/js/2.8bd8ca99.chunk.js.map",
-  "index.html": "/woody-allen-game/index.html",
-  "precache-manifest.9a934f865f66e6f21dd07b66c17a28f5.js": "/woody-allen-game/precache-manifest.9a934f865f66e6f21dd07b66c17a28f5.js",
-  "service-worker.js": "/woody-allen-game/service-worker.js",
-  "static/css/main.9012fb90.chunk.css.map": "/woody-allen-game/static/css/main.9012fb90.chunk.css.map",
-  "static/media/EndGame.css": "/woody-allen-game/static/media/allenSad.7c983749.png",
-  "static/media/Header.css": "/woody-allen-game/static/media/manhattan.9107ba59.jpg"
+  "main.css": "/Woody-Allen-Game/static/css/main.f04deff1.chunk.css",
+  "main.js": "/Woody-Allen-Game/static/js/main.cfcf07ab.chunk.js",
+  "main.js.map": "/Woody-Allen-Game/static/js/main.cfcf07ab.chunk.js.map",
+  "runtime~main.js": "/Woody-Allen-Game/static/js/runtime~main.17d57987.js",
+  "runtime~main.js.map": "/Woody-Allen-Game/static/js/runtime~main.17d57987.js.map",
+  "static/js/2.4594fe0e.chunk.js": "/Woody-Allen-Game/static/js/2.4594fe0e.chunk.js",
+  "static/js/2.4594fe0e.chunk.js.map": "/Woody-Allen-Game/static/js/2.4594fe0e.chunk.js.map",
+  "index.html": "/Woody-Allen-Game/index.html",
+  "precache-manifest.7d466c76ffd2801d977981572c75c855.js": "/Woody-Allen-Game/precache-manifest.7d466c76ffd2801d977981572c75c855.js",
+  "service-worker.js": "/Woody-Allen-Game/service-worker.js",
+  "static/css/main.f04deff1.chunk.css.map": "/Woody-Allen-Game/static/css/main.f04deff1.chunk.css.map",
+  "static/media/EndGame.css": "/Woody-Allen-Game/static/media/allenSad.7c983749.png",
+  "static/media/Header.css": "/Woody-Allen-Game/static/media/manhattan.9107ba59.jpg"
 }
